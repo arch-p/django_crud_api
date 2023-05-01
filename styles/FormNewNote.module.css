@@ -1,0 +1,41 @@
+.Form{
+    background-color: rgba(0,0,0,.8);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 1s;
+    opacity: 1;
+    pointer-events: auto;
+    z-index: 6;
+    width: 100%;
+}
+.contenido{
+    /*background-color: rgba(69, 162, 158);*/
+    border-radius: 1em;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 3em;
+    position: relative;
+    text-align: center;
+    color: white;
+    height: fit-content;
+    padding: 0.5em 2em 0.5em 2em;
+}
+.parrafo{
+    float: left;
+    margin: 5%;
+    width: 90%;
+    margin-left: 5%;
+}
+
+
+@media (max-width: 640px) { 
+    .contenido{
+        width: 80%;
+        margin-left: 10%;
+    }
+ }
