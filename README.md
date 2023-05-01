@@ -39,7 +39,7 @@ pip install -r requirements.txt
 python3 manage.py runserver
 ```
 
-You can go to [https://localhost:8000] to verify the correct run of backend service. 
+You can go to https://localhost:8000 to verify the correct run of backend service. 
 
 ### Run the frontend
 
@@ -54,7 +54,7 @@ npm install
 npm run dev
 ```
 
-You can go to [https://localhost:3000] to verify the correct run of backend service. 
+You can go to https://localhost:3000 to verify the correct run of backend service. 
 
 
 
